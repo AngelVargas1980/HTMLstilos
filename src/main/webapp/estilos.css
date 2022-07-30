@@ -1,0 +1,62 @@
+body{
+    width: 1000px;
+    margin: auto;
+    background-color: activecaption;
+    border: dotted;
+}
+
+#curso{
+    /*Este es para el estilo del fondo*/
+    margin-top: 100px; /*es para el margen superior*/
+    padding: 30px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+        
+.somos{
+    width: 93%;
+    margin: 15px;
+    padding: 15px;
+    background-color: #F3E108;
+}
+
+
+.tema1{
+    float: left;
+    width: 35%;
+    margin: 15px;
+    padding: 15px;
+    background-color: #DC5734;
+}
+
+.tema2{
+    float: right;
+    width: 35%;
+    margin: 15px;
+    padding: 15px;
+    background-color: red;
+}
+
+.titulotema{
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+p{
+    
+    text-align: justify-all;
+    background-color: #086EB4;
+    
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.fototema{
+     background-color: greenyellow;
+     height: 300px;
+     width: 200px;
+}
